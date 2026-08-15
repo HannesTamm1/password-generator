@@ -8,12 +8,16 @@
 </head>
 <body>
     <div>
-        <h1 id="head-message">Generate a <br><a id="random-password">random password</a></h1>
-        <p id="filling-message">Never use an insecure password again.</p>
-        <button class="generate-btn" onclick="generateRandomPassword()">Generate password</button>
+        <div>
+            <h1 id="head-message">Generate a <br><a id="random-password">random password</a></h1>
+            <p id="filling-message">Never use an insecure password again.</p>
+            <button class="generate-btn" onclick="generateRandomPassword()">Generate password</button>
+        </div>
         <hr/>
-        <div id="generated-password-one" class="generate-area"></div>
-        <div id="generated-password-two" class="generate-area"></div>
+        <div class="generate-section">
+            <div id="generated-password-one" class="generate-areaOne"></div>
+            <div id="generated-password-two" class="generate-areaTwo"></div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>

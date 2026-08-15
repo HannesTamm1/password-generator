@@ -16,11 +16,11 @@ body {
 
 }
 #filling-message{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400px;
     color: #D5D4D8;
-    margin-top: 0;
     opacity: 75%;
+    text-align: left;
 }
 
 .generate-btn{
@@ -47,15 +47,24 @@ hr {
     padding: 0;
 }
 
-.generate-area{
+.generate-areaOne{
     background-color: #273549;
     width: 211px;
     height: 39px;
     border-radius: 6px;
     margin: 20px 10px 20px 0px;
+    flex: 1;
+    margin-right: 20px;
+}
+.generate-areaTwo{
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    margin: 20px 0px 20px 0px;
     
 }
-.generate-area, p{
+.generate-areaOne,.generate-areaTwo, p{
 display: block;
 align-content: center;
 text-align: center;
@@ -63,4 +72,9 @@ color: #55F991;
 font-size: 16px;
 font-style: medium;
 }
+
+.generate-section {
+    display: flex;
+}
+
 
