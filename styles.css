@@ -23,3 +23,26 @@ body {
     opacity: 75%;
 }
 
+.generate-btn{
+    background-color:#10B981;
+    color: #FFFF;
+    font-size: 16px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border: #0000000D;
+    border-radius: 6px;
+}
+
+.generate-btn:hover{
+background-color: #059669;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2F3E53;
+    margin: 1em 0;
+    padding: 0;
+}
+
