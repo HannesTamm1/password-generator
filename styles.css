@@ -47,7 +47,7 @@ hr {
     padding: 0;
 }
 
-#generated-password{
+.generate-area{
     background-color: #273549;
     width: 211px;
     height: 39px;
@@ -55,7 +55,7 @@ hr {
     margin: 20px 10px 20px 0px;
     
 }
-#generated-password, p{
+.generate-area, p{
 display: block;
 align-content: center;
 text-align: center;
