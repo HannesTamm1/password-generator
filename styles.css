@@ -76,5 +76,8 @@ font-style: medium;
 .generate-section {
     display: flex;
 }
+.generate-container, p{
+    color: white;
+}
 
 
