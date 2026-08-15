@@ -31,6 +31,7 @@ body {
     gap: 12px;
     border: #0000000D;
     border-radius: 6px;
+    margin: 10px 10px 20px 0px;
 }
 
 .generate-btn:hover{
@@ -44,5 +45,22 @@ hr {
     border-top: 1px solid #2F3E53;
     margin: 1em 0;
     padding: 0;
+}
+
+#generated-password{
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    margin: 20px 10px 20px 0px;
+    
+}
+#generated-password, p{
+display: block;
+align-content: center;
+text-align: center;
+color: #55F991;
+font-size: 16px;
+font-style: medium;
 }
 
